@@ -1,3 +1,9 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 fieldset {
     width: 80vw;
     margin: 10px auto;
@@ -5,8 +11,17 @@ fieldset {
     box-shadow: 2px 2px 5px gainsboro;
 }
 
+table {
+    margin: 15px;
+}
+
+tr {
+    margin: 15px;
+}
+
 th {
     width: 10rem;
     text-align: left;
     align-content: baseline;
+    padding: 5px;
 }

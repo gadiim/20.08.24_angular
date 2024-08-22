@@ -1,3 +1,15 @@
 <div>
     <app-event-item></app-event-item>
 </div>
+
+<div>
+    <app-event-item2 [task2Event] = "task2Event" [task2Date] = "task2Date" [task2Description] = "task2Description"></app-event-item2>
+</div>
+
+<fieldset>
+    <legend>TASK 3</legend>
+        <div *ngFor="let item of event3Data">
+            <app-event-item3 [task3Event]="item.task3Event" [task3Date]="item.task3Date"
+                [task3Description]="item.task3Description"></app-event-item3>
+        </div>
+</fieldset>
